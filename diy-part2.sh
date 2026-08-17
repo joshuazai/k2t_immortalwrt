@@ -26,6 +26,7 @@ uci set system.@system[0].zonename='Asia/Shanghai'
 uci set system.@system[0].zram_size_mb='32'
 
 # 预设无线国家码为中国 (CN)
+[ -f /etc/config/wireless ] || wifi config
 uci set wireless.radio0.country='CN'
 uci set wireless.radio1.country='CN'
 
