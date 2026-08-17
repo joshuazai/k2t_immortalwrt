@@ -1,4 +1,4 @@
-name: Build OpenWrt
+name: K2T-immortalwrt精简kvr
 
 on:
   repository_dispatch:
